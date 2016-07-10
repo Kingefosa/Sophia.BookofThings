@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sophia.BookofThings.Domain", "src\Sophia.BookofThings.Domain\Sophia.BookofThings.Domain.csproj", "{00DC0732-BDC3-4796-B276-0B46A1671F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sophia.BookofThings.Web", "src\Sophia.BookofThings.Web\Sophia.BookofThings.Web.csproj", "{0DFF408F-5CE0-455B-A13F-0DF0DD88D411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DC0732-BDC3-4796-B276-0B46A1671F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DC0732-BDC3-4796-B276-0B46A1671F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DC0732-BDC3-4796-B276-0B46A1671F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DC0732-BDC3-4796-B276-0B46A1671F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFF408F-5CE0-455B-A13F-0DF0DD88D411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFF408F-5CE0-455B-A13F-0DF0DD88D411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFF408F-5CE0-455B-A13F-0DF0DD88D411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFF408F-5CE0-455B-A13F-0DF0DD88D411}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
