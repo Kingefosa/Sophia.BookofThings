@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+        <div class="btn-group-vertical">
+            <div class="btn-group">
+                <button class="btn btn-sq-lg btn-primary" onclick="location.href='@Url.Action("Index", "MyList")'">
+                    <span class="glyphicon glyphicon-list"></span> My Lists
+                </button>
+                <button class="btn btn-sq-lg btn-primary disabled">
+                    <span class="glyphicon glyphicon-edit"></span> My Journal
+                </button>
+            </div>
+            <button class="btn btn-rc-lg btn-success disabled">
+                <span class="glyphicon glyphicon-calendar"></span> Sophia's Calendar
+            </button>
+        </div>
+
