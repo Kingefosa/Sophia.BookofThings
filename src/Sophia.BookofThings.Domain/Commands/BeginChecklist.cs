@@ -1,8 +1,8 @@
 ﻿namespace Sophia.BookofThings.Commands
 {
-    public class BeginCheckList : ICommand
+    public class BeginChecklist : ICommand
     {
-        public BeginCheckList(string title, string[] items)
+        public BeginChecklist(string title, string[] items)
         {
             Title = title;
             Items = items;
